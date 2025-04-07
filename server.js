@@ -9,7 +9,7 @@ import cors from "cors";
 import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoute.js";
 import categoryRoutes from "./routes/categoryRoutes.js";
-import productRoutes from "./routes/productRoutes.js"; // ✅ ADD THIS
+import productRoutes from "./routes/productRoutes.js"; 
 
 // Configure environment
 dotenv.config();
